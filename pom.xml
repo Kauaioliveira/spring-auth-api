@@ -12,11 +12,11 @@
     </parent>
 
     <groupId>com.github.kauaioliveira</groupId>
-    <artifactId>coder-java</artifactId>
+    <artifactId>spring-auth-api</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>CoderJava</name>
+    <name>Spring Auth API</name>
     <description>API web de autenticação (demo) com Spring Boot 3, Java 17 e OpenAPI.</description>
 
     <properties>

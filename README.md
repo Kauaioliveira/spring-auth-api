@@ -1,8 +1,10 @@
-# CoderJava
+# Spring Auth API
 
-[![CI](https://github.com/Kauaioliveira/CoderJava/actions/workflows/ci.yml/badge.svg)](https://github.com/Kauaioliveira/CoderJava/actions/workflows/ci.yml)
+[![CI](https://github.com/Kauaioliveira/spring-auth-api/actions/workflows/ci.yml/badge.svg)](https://github.com/Kauaioliveira/spring-auth-api/actions/workflows/ci.yml)
 
 API **REST** em **Java 17** e **Spring Boot 3** com validação de entrada, documentação **OpenAPI (Swagger UI)**, **Actuator** (health) e testes (slice + integração).
+
+**Clone:** `git clone https://github.com/Kauaioliveira/spring-auth-api.git`
 
 ## Stack
 
@@ -74,6 +76,8 @@ Origens liberadas para front local: `http://localhost:3000`, `http://localhost:5
 
 ## Estrutura (resumo)
 
+Pacotes Java em `com.github.kauaioliveira.coderjava` (legado do nome antigo do repo; o artefato Maven é `spring-auth-api`).
+
 ```
 src/main/java/.../coderjava/
 ├── CoderJavaApplication.java
@@ -84,7 +88,7 @@ src/main/java/.../coderjava/
 
 ## English (short)
 
-Spring Boot 3 REST demo with OpenAPI UI, validation, actuator health, and tests. Demo login: `POST /api/v1/auth/login` with `admin` / `1234`.
+**Spring Auth API** — Spring Boot 3 REST demo with OpenAPI UI, validation, actuator health, and tests. Demo login: `POST /api/v1/auth/login` with `admin` / `1234`.
 
 ## Licença
 

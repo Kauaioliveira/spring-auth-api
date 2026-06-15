@@ -9,10 +9,10 @@ import org.springframework.context.annotation.Configuration;
 public class OpenApiConfiguration {
 
     @Bean
-    public OpenAPI coderJavaOpenApi() {
+    public OpenAPI springAuthApiOpenApi() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("CoderJava API")
+                        .title("Spring Auth API")
                         .version("1.0")
                         .description("API REST de demonstração — autenticação em memória. "
                                 + "Não use em produção sem camadas de segurança adequadas."));

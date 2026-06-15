@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: coder-java
+    name: spring-auth-api
 
 springdoc:
   api-docs:
